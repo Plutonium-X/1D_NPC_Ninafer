@@ -1,0 +1,13 @@
+@0    = ~Une bonne affaire, mon seigneur ? Je ne crois pas vous avoir déjà vu... Peut-être seriez-vous intéressé par des marchandises à bon prix qui me sont tombées entre les mains ?~~Une bonne affaire, ma dame ? Je ne crois pas vous avoir déjà vu... Peut-être seriez-vous intéressé par des marchandises à bon prix qui me sont tombées entre les mains ?~
+@1    = ~Essayez-vous de me dire que ces marchandises sont volées ?~
+@2    = ~Bien sûr, faites-moi voir ce que vous avez.~
+@3    = ~Non, je n'ai besoin de rien.~
+@4    = ~Je ne les considère pas comme volés, mon seigneur. Simplement "préalablement possédés". Et, en vérité, la facilité avec laquelle je les ai acquis pourrait vraiment être qualifiée de "tombée" entre mes mains.~~Je ne les considère pas comme volés, ma dame. Simplement "préalablement possédés". Et, en vérité, la facilité avec laquelle je les ai acquis pourrait vraiment être qualifiée de "tombée" entre mes mains.~
+@5    = ~Eh bien, je n'ai pas de problème avec ça. Faites-moi voir ce que vous avez à offrir.~
+@6    = ~Ça ne m'intéresse pas.~
+@7    = ~Un choix très prudent, dont vous constaterez rapidement qu'il en vaut la peine.~
+@8    = ~C'est dommage, mon seigneur. Peut-être avez-vous besoin de quelques pièces ? Ou dois-je vous trouver des langes ?~~C'est dommage, ma dame. Peut-être avez-vous besoin de quelques pièces ? Ou dois-je vous trouver des langes ?~
+@9    = ~Ah ! je suis heureuse de vous revoir, mon seigneur. Cela vous intéresserait-il d'examiner quelques marchandises qui sont tombées entre mes mains ?~~Ah ! je suis heureuse de vous revoir, ma dame. Cela vous intéresserait-il d'examiner quelques marchandises qui sont tombées entre mes mains ?~
+@10   = ~Vous vendez des marchandises volées ?~
+@11   = ~Oui, laissez-moi voir ce que vous avez.~
+@12   = ~Non merci.~

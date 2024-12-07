@@ -1,0 +1,17 @@
+@0    = ~Salutations voyageur. Vous semblez être un aventurier qui a parcouru de nombreux chemins et fait de nombreuses rencontres. Je me demandais si vous pouviez m'aider à résoudre un problème.~~Salutations voyageuse. Vous semblez être une aventurière qui a parcouru de nombreux chemins et fait de nombreuses rencontres. Je me demandais si vous pouviez m'aider à résoudre un problème.~
+@1    = ~Nous pouvons peut-être vous aider, quel est votre problème ?~
+@2    = ~Désolé, nous n'avons pas le temps.~~Désolée, nous n'avons pas le temps.~
+@3    = ~Une nuit, alors que je séjournais dans l'une des auberges en Amn, un voleur à dérobé mon Livre des dweomers. J'ai besoin qu'on me rende ce livre le plus vite possible. Je devais l'apporter à Chateausuif... Oh là là, la Grande Prêtresse va être fâchée contre moi. Pouvez-vous m'aider ?~
+@4    = ~Bien sûr que nous le pouvons. Avez-vous des détails sur le voleur qui a dérobé ce livre ?~
+@5    = ~Merci quand même.~
+@6    = ~Je ne sais rien du voleur, mais je soupçonne qu'il travaillait pour une prêtresse de Shar. Ils me suivent depuis que j'ai quitté mon église il y a quelques jours. J'ai vu un de leurs gardes récemment à l'auberge des Cinq Choppes, si ça peut vous aider.~
+@7    = ~Nous allons commencer par là et nous reviendrons si nous découvrons quelque chose de nouveau.~
+@8    = ~Je vois que vous êtes de retour. Avez-vous mon Livre des dweomers ?~
+@9    = ~Non, pas encore.~
+@10   = ~S'il vous plaît, dépêchez-vous et revenez quand vous l'aurez.~
+@11   = ~Vous revenez et vous avez mon livre. Je vous en suis très reconnaissant. Pour ça, je vous donne 1000 pièces d'or et l'accès à mon magasin pendant que je suis ici.~
+@12   = ~Heureux de vous voir <CHARNAME> Que puis-je faire pour vous ?~
+@13   = ~Voyons ce que vous avez dans votre magasin.~
+@14   = ~Rien.~
+@15   = ~D'accord, voilà ce que j'ai.~
+@16   = ~Revenez si vous changez d'avis.~

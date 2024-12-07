@@ -1,0 +1,60 @@
+@0    = ~Ninafer NPC Mod (Requires Throne of Bhaal)~
+@1    = ~You do not appear to have TOB installed.~
+@2    = ~Guard~
+@3    = ~Lillian Darkblade~
+@4    = ~Priestess of Shar~
+@5    = ~Charlotte~
+@6    = ~Priest of Mystra~
+@7    = ~The Goods~
+@8    = ~Mystra's Magical Merchant~
+@9    = ~Ninafer~
+@10   = ~How may I help you?~ [NINA01]
+@11   = ~I am most pleased by our progress~ [NINA05]
+@12   = ~I can not travel with you any longer~ [NINA03]
+@13   = ~I do not approve of you methods~ [NINA06]
+@14   = ~I can not allow your evil to continue, prepare yourself~ [NINA04]
+@15   = ~May my faith lend me strength~ [NINA21]
+@16   = ~I feel fatigue we should rest soon~ [NINA08]
+@17   = ~Philosophy~ [NINA16]
+@18   = ~Hurt~ [NINA10]
+@19   = ~Forgive me~ [NINA11]
+@20   = ~I fear I've been wounded~ [NINA12]
+@21   = ~There is much to be learned from all parts of society~ [NINA29]
+@22   = ~The air is quite bracing here~ [NINA13]
+@23   = ~Yes what did you wish?~ [NINA15]
+@24   = ~Yes?~ [NINA02]
+@25   = ~Is everyone ready to go?~ [NINA09]
+@26   = ~Simple minds simple pleasures~ [NINA20]
+@27   = ~I'm trying to concentrate here~ [NINA19]
+@28   = ~I fear not all of us will return~ [NINA14]
+@29   = ~I do not think we know each other well enough~ [NINA22]
+@30   = ~Remove clothes~ [NINA24]
+@31   = ~Out of practice~ [NINA25]
+@32   = ~Naked~ [NINA23]
+@33   = ~My spell was disrupted~ [NINA28]
+@34   = ~Ninafer or Nina as she likes her friends to call her is a defender of Mystra and the Weave. She dislikes magic being used for evil and will battle those who do so. She does not shed much light on her past but only reveals the present which is the hunt for Irenicus. She has heard much about the traveler from Candlekkep and looks forward to joining him/her in their quest to rescue Imoen and stop Irenicus.~
+@35   = ~Long Sword +3 "Vigilance"~
+@36   = ~Long Sword +3 "Vigilance"
+
+This is Nina's personal sword that was given to her by her mother, who was a priestess of Mystra. It was created to destroy evil especially those who would abuse magic for their own personal evil ways.
+
+STATISTICS:
+
+Bonus Damage:
+1D4+2 Fire
+1D4+2 Electrical
+
+THAC0: +3 bonus, +2 vs. evil creatures
+Damage: 1D8 +3, +2 vs. evil creatures
+Damage type: slashing
+Weight: 2
+Speed Factor: 3
+Proficiency Type: Long sword
+Type: 1-handed
+Requires: 6 Strength
+Usable By:
+ Ninafer~
+@37   = ~Nina's Ring~
+@38   = ~This is Nina's personal ring. It was given to her by her mother upon her death. It has magically tightened itself around her finger so it will not come off. Upon her death the ring will destroy itself. Nina does not say much about what the ring is or who it came to be.~
+@39   = ~Tome of Magical Spells~
+@40   = ~This is a magical book that has writing on the cover in ancient Netherese. A magical lock appears to be on the book since you can not open it up. This is some thing that is beyond your comprehension and better off given back to the Priest of Mystra.~

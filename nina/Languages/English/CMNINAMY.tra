@@ -1,0 +1,17 @@
+@0    = ~Greetings traveler. You have the look of an adventurer who has seen many miles of travel and encounters. I was wondering if you could help me out with a problem.~
+@1    = ~We might be able to help you, what is the problem?~
+@2    = ~Sorry we do not have the time.~
+@3    = ~Well one night when I was staying in one of the inns here in Amn a thief took my Tome of Magic. This book I need returned as soon as possible. I was bringing this book to Candlekeep... oh dear the High Priestess will be upset with me. Can you help me out?~
+@4    = ~Sure we can. Do you have any details on the thief that stolen this book?~
+@5    = ~Well thanks anyway.~
+@6    = ~I do not know anything about the thief but I suspect the thief was working for a Priestess of Shar. They have been following me since I left my church days ago. I saw one of their guards recently at the Five Flagons Inn if that would help you.~
+@7    = ~We'll start from there and return if we find out anything new.~
+@8    = ~I see you have returned. Do you have my magical tome?~
+@9    = ~No we do not.~
+@10   = ~Please hurry up and return when you have it.~
+@11   = ~You return and have my tome. I am most grateful for this. For this I'll give you 1000 gold and access to my store while I am here.~
+@12   = ~Glad to see you <CHARNAME> what can I do for you?~
+@13   = ~Lets see what you have in your store.~
+@14   = ~Nothing.~
+@15   = ~Ok here is what I have.~
+@16   = ~Return if you change your mind.~

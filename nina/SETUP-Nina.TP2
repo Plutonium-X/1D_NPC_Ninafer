@@ -1,0 +1,211 @@
+/*************************************************************************
+*												 *
+*												 *
+*		Ninafer	Version 100b						 *
+*												 *
+*				http://www.chosenofmystra.db-forge.com		 *
+*												 *
+*				Copyright 2004 Greg "Melkor" Scott			 *
+*												 *
+*												 *
+*												 *
+*	       										 *
+*												 *
+*												 *
+**************************************************************************
+**/
+
+//tp2 Instructions
+BACKUP ~nina/backup~ 
+AUTHOR ~"http://www.chosenofmystra.db-forge.com"~
+
+ALWAYS
+ ACTION_DEFINE_ARRAY tra_reload BEGIN setup END
+ LAF HANDLE_CHARSETS
+ INT_VAR
+ infer_charset = 1
+ STR_VAR
+ tra_path = EVAL ~%MOD_FOLDER%/Languages~
+ reload_array = tra_reload
+ END
+ END
+
+AUTO_TRA ~nina/Tra/%s~
+
+LANGUAGE ~English~
+         ~English~
+         ~nina/Languages/English/Setup.tra~
+
+LANGUAGE ~Francais (par Deratiseur)~
+         ~french~
+         ~nina/Languages/french/Setup.tra~
+
+BEGIN @0
+REQUIRE_FILE ~Data/25Dialog.bif~ @1
+
+// Copying .CRE files
+
+COPY ~nina/creatures/2CMSHAR4.cre~  ~override\2CMSHAR4.cre~       
+  SAY NAME1 @2 
+  SAY NAME2 @2 
+
+COPY ~nina/creatures/2CMSHAR1.cre~  ~override\2CMSHAR1.cre~       
+  SAY NAME1 @3 
+  SAY NAME2 @3 
+
+COPY ~nina/creatures/2CMSHAR2.cre~  ~override\2CMSHAR2.cre~       
+  SAY NAME1 @4 
+  SAY NAME2 @4 
+
+COPY ~nina/creatures/2CMSHAR3.cre~  ~override\2CMSHAR3.cre~       
+  SAY NAME1 @2 
+  SAY NAME2 @2 
+
+COPY ~nina/creatures/CMNINAST.cre~  ~override\CMNINAST.cre~       
+  SAY NAME1 @5 
+  SAY NAME2 @5 
+
+COPY ~nina/creatures/CMNINAMY.cre~  ~override\CMNINAMY.cre~       
+  SAY NAME1 @6 
+  SAY NAME2 @6 
+
+// Copy stores
+
+COPY ~nina/stores/CMNINAST.STO~     ~override\CMNINAST.STO~       
+  SAY NAME2 @7 
+
+COPY ~nina/stores/CMNINAMY.sto~     ~override\CMNINAMY.sto~       
+  SAY NAME2 @8 
+
+COPY ~nina/creatures/CMNINAF9.cre~  ~override\CMNINAF9.cre~       
+  SAY NAME1 @9 
+  SAY NAME2 @9 
+  SAY 0xa4 @10 
+  SAY 0xa8 @11 
+  SAY 0xac @11 
+  SAY 0xb0 @12 
+  SAY 0xb4 @13 
+  SAY 0xb8 @14 
+  SAY 0xbc @15 
+  SAY 0xc0 @16 
+  SAY 0xc4 @17 
+  SAY 0xc8 @15 
+  SAY 0xcc @14 
+  SAY 0xec @18 
+  SAY 0xf0 @19 
+  SAY 0xf4 @20 
+  SAY 0xfc @21 
+  SAY 0x100 @22 
+  SAY 0x10c @23 
+  SAY 0x110 @10 
+  SAY 0x114 @24 
+  SAY 0x124 @25 
+  SAY 0x128 @26 
+  SAY 0x12c @27 
+  SAY 0x178 @28 
+  SAY 0x1a0 @29 
+  SAY 0x1a4 @30 
+  SAY 0x1a8 @28 
+  SAY 0x1ac @31 
+  SAY 0x1b0 @31 
+  SAY 0x1b4 @32 
+  SAY 0x1c0 @33 
+SAY BIO @34
+
+ACTION_IF GAME_IS ~TOB BGT~ THEN BEGIN 
+COPY ~nina\ports~ ~override~
+END
+
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN 
+COPY ~nina\ports\EE~ ~override~
+END
+
+COPY ~nina\sounds~ ~override~
+
+
+// Copy items
+
+ACTION_IF GAME_IS ~TOB BGT~ THEN BEGIN 
+COPY ~nina/items/CMNINASW.ITM~      ~override/CMNINASW.ITM~       
+  SAY NAME2 @35 
+  SAY DESC @36
+ END
+ 
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN 
+COPY ~nina/items/EE/CMNINASW.ITM~      ~override/CMNINASW.ITM~       
+  SAY NAME2 @35 
+  SAY DESC @36
+ END
+
+COPY ~nina/items/CMNINARI.ITM~      ~override/CMNINARI.ITM~       
+  SAY NAME1 @37 
+  SAY NAME2 @37 
+  SAY UNIDENTIFIED_DESC @38 
+
+COPY ~nina/items/CMBOOK99.ITM~      ~override/CMBOOK99.ITM~       
+  SAY NAME1 @39 
+  SAY NAME2 @39 
+  SAY UNIDENTIFIED_DESC @40 
+
+// Add NPC dialog references
+
+APPEND ~pdialog.2da~ // SOA append
+~CMNINAF         CMNINAFP               CMNINAFJ              CMNINAFD~
+UNLESS ~CMNINAF~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~CMNINAF         CMNINAFP               CMNINAFJ             ***         ***           ***                 ***                 ***~
+UNLESS ~CMNINAF~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~CMNINAF         BCMNINAF    ~
+UNLESS ~CMNINAF~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~CMNINAF         BCMNINAF          NONE     ~
+UNLESS ~CMNINAF~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Dialog to compile
+
+COMPILE
+  ~nina/d/cmninamy.d~
+  USING ~nina/Languages/english/cmninamy.tra~
+        ~nina/Languages/%s/cmninamy.tra~
+
+COMPILE
+  ~nina/d/cmninast.d~
+  USING ~nina/Languages/english/cmninast.tra~
+        ~nina/Languages/%s/cmninast.tra~
+
+COMPILE
+  ~nina/d/cmshar1.d~
+  USING ~nina/Languages/english/cmshar1.tra~
+        ~nina/Languages/%s/cmshar1.tra~
+
+COMPILE
+  ~nina/d/cmninaf.d~
+  USING ~nina/Languages/english/cmninaf.tra~
+        ~nina/Languages/%s/cmninaf.tra~
+
+
+// Compile and append scripts
+
+EXTEND_BOTTOM ~AR0406.bcs~ ~nina/s/CAR0406.bcs~
+
+EXTEND_BOTTOM ~AR0511.bcs~ ~nina/s/CAR0511.bcs~
+
+EXTEND_BOTTOM ~AR0900.bcs~ ~nina/s/CAR0900.bcs~
+
+EXTEND_BOTTOM ~AR2000.bcs~ ~nina/s/CAR2000.bcs~
+
+COPY ~nina\s\cmninaf.bcs~ ~override~
+
+COPY ~nina\s\CMSHAR1.bcs~ ~override~
+
+COPY ~nina\s\CMSHAR2.bcs~ ~override~
+
+AT_INTERACTIVE_EXIT ~VIEW nina\README-nina.txt~

@@ -1,0 +1,60 @@
+@0    = ~PNJ Ninafer (Necessite Throne of Bhaal)~
+@1    = ~Il semble que TOB ne soit pas installé.~
+@2    = ~Garde~
+@3    = ~Lillian Lamenoire~
+@4    = ~Prêtresse de Shar~
+@5    = ~Charlotte~
+@6    = ~Prêtre de Mystra~
+@7    = ~Les bonnes choses~
+@8    = ~Marchand de magie de Mystra~
+@9    = ~Ninafer~
+@10   = ~Que puis-je faire pour vous ?~ [NINA01]
+@11   = ~Je suis très satisfaite de nos progrès.~ [NINA05]
+@12   = ~Je ne peux plus voyager avec vous.~ [NINA03]
+@13   = ~Je n'approuve pas vos méthodes.~ [NINA06]
+@14   = ~Je ne peux pas permettre que votre mal perdure; préparez-vous.~ [NINA04]
+@15   = ~Que ma foi me donne la force.~ [NINA21]
+@16   = ~Je me sens fatiguée, nous devrions nous reposer sans tarder.~ [NINA08]
+@17   = ~Philosophie~ [NINA16]
+@18   = ~Blessée.~ [NINA10]
+@19   = ~Oubliez moi.~ [NINA11]
+@20   = ~Je crains d'avoir été blessée.~ [NINA12]
+@21   = ~Il y a beaucoup à apprendre de toutes les couches de la société.~ [NINA29]
+@22   = ~L'air est assez vivifiant ici.~ [NINA13]
+@23   = ~Oui, que voulez vous ?~ [NINA15]
+@24   = ~Oui ?~ [NINA02]
+@25   = ~Est-ce que tout le monde est prêt à y aller ?~ [NINA09]
+@26   = ~Des pensées simples, des plaisirs simples.~ [NINA20]
+@27   = ~J'essaie de me concentrer, là.~ [NINA19]
+@28   = ~Je crains que nous ne revenions pas tous.~ [NINA14]
+@29   = ~Je ne pense pas que nous nous connaissions suffisamment.~ [NINA22]
+@30   = ~Enlève ses vêtements.~ [NINA24]
+@31   = ~Manque de pratique.~ [NINA25]
+@32   = ~Nue.~ [NINA23]
+@33   = ~Mon sort a été interrompu.~ [NINA28]
+@34   = ~Ninafer ou Nina, comme ses amis aiment l'appeler, est une défenseuse de Mystra et de la Toile. Elle n'aime pas que la magie soit utilisée à des fins malveillantes et combattra ceux qui le font. Elle ne fait pas beaucoup de lumière sur son passé, mais révèle seulement le présent, c'est-à-dire la traque d'Irenicus. Elle a beaucoup entendu parler du voyageur venu de Chateausuif et a hâte de le rejoindre dans sa quête pour sauver Imoen et arrêter Irenicus.~
+@35   = ~Épée longue +3 "Vigilance"~
+@36   = ~Épée longue +3 "Vigilance"
+
+C'est l'épée personnelle de Nina qui lui a été donnée par sa mère, prêtresse de Mystra. Elle a été créée pour détruire le mal, en particulier ceux qui abusent de la magie à des fins malveillantes.
+
+STATISTICS:
+
+Capacités de combat :
+1D4+2 dégâts de feu supplémentaires
+1D4+2 dégâts d’électricité supplémentaires
+
+TAC0 : +3, +5 contre les créatures mauvaises
+Dégâts : 1D8 +3, +5 contre les créatures mauvaises
+Type de dégât : tranchant
+Poids : 2
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 6
+Utilisable par :
+ Ninafer~
+@37   = ~La bague de Nina~
+@38   = ~C'est la bague personnelle de Nina. Elle lui a été donnée par sa mère à sa mort. Elle s'est resserrée comme par magie autour de son doigt pour ne pas s'en détacher. À sa mort, la bague se détruira d'elle-même. Nina ne dit pas grand-chose sur la nature de l'anneau ni sur son origine.~
+@39   = ~Livre des dweomers~
+@40   = ~C'est un livre magique dont la couverture est rédigée dans l'ancien Netherese. Un verrou magique semble être placé sur le livre puisqu'il est impossible de l'ouvrir. C'est une chose qui dépasse votre entendement et qu'il vaut mieux remettre au prêtre de Mystra.~
