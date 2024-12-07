@@ -57,6 +57,7 @@ Version 1.02b
 	Correction of incorrect sword description.
 	Correction of Nina's personal ring, which according to its description text could not be moved.
 	Corrected Shar's servants not appearing when the mystra priest quest is activated.
+	Adaptation of his personal sword which didn't work the same way in BG2EE.
 
 
 Technical:
