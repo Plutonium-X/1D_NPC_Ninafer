@@ -30,7 +30,7 @@ ALWAYS
  END
  END
 
-AUTO_TRA ~nina/Tra/%s~
+AUTO_TRA ~nina/Languages/%s~
 
 LANGUAGE ~English~
          ~English~
@@ -125,17 +125,9 @@ COPY ~nina\sounds~ ~override~
 
 // Copy items
 
-ACTION_IF GAME_IS ~TOB BGT~ THEN BEGIN 
 COPY ~nina/items/CMNINASW.ITM~      ~override/CMNINASW.ITM~       
   SAY NAME2 @35 
-  SAY DESC @36
- END
- 
-ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN 
-COPY ~nina/items/EE/CMNINASW.ITM~      ~override/CMNINASW.ITM~       
-  SAY NAME2 @35 
-  SAY DESC @36
- END
+  SAY DESC @36 
 
 COPY ~nina/items/CMNINARI.ITM~      ~override/CMNINARI.ITM~       
   SAY NAME1 @37 
@@ -173,23 +165,19 @@ IF     ~25POST~ // requires TOB to be installed
 
 COMPILE
   ~nina/d/cmninamy.d~
-  USING ~nina/Languages/english/cmninamy.tra~
-        ~nina/Languages/%s/cmninamy.tra~
+  USING ~nina/Languages/%s/cmninamy.tra~
 
 COMPILE
   ~nina/d/cmninast.d~
-  USING ~nina/Languages/english/cmninast.tra~
-        ~nina/Languages/%s/cmninast.tra~
+  USING ~nina/Languages/%s/cmninast.tra~
 
 COMPILE
   ~nina/d/cmshar1.d~
-  USING ~nina/Languages/english/cmshar1.tra~
-        ~nina/Languages/%s/cmshar1.tra~
+  USING ~nina/Languages/%s/cmshar1.tra~
 
 COMPILE
   ~nina/d/cmninaf.d~
-  USING ~nina/Languages/english/cmninaf.tra~
-        ~nina/Languages/%s/cmninaf.tra~
+  USING ~nina/Languages/%s/cmninaf.tra~
 
 
 // Compile and append scripts
