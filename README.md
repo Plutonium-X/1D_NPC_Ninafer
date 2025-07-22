@@ -3,7 +3,7 @@
 Elle viendra directement parler à CHARNAME quand il rentrera dans la Couronne de cuivre.
 
 Particularités :
-
+- Caractéristiques : force 15, dextérité 19, endurance 12, intelligence 18, sagesse 9, charisme 11.
 - Elle a très peu de dialogues et banters.
 - Elle est entièrement vocalisée (en anglais).
 - Son portrait est une variation de celui de Viconia, ce qui peut semblait bizarre si vous avez les deux dans le groupe.
